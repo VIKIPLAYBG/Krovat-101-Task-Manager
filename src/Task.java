@@ -5,6 +5,7 @@ public class Task {
     private String title;
     private String description;
     private TaskStatus status;
+    private TeamMember task_manager;
 
     public Task(String title, String description) {
         this.id = nextId;
